@@ -15,7 +15,7 @@ public class MyClass {
         System.out.println(isCorrectDate(day, month, year));
 //        System.out.println(i + " " + getPartOfString(i));
 //        System.out.println(isLeap(i) ? "Leap" : "NotLeap");
-        //test merge
+        //test merge2
     }
 
     public static boolean isCorrectDate(int day, int month, int year) {
