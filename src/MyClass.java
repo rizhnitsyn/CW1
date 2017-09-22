@@ -15,6 +15,8 @@ public class MyClass {
         System.out.println(isCorrectDate(day, month, year));
 //        System.out.println(i + " " + getPartOfString(i));
 //        System.out.println(isLeap(i) ? "Leap" : "NotLeap");
+        //indexed
+        //notindexed
     }
 
     public static boolean isCorrectDate(int day, int month, int year) {
