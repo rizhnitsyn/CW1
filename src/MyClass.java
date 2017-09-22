@@ -15,8 +15,6 @@ public class MyClass {
         System.out.println(isCorrectDate(day, month, year));
 //        System.out.println(i + " " + getPartOfString(i));
 //        System.out.println(isLeap(i) ? "Leap" : "NotLeap");
-        //indexed
-        //notindexed
     }
 
     public static boolean isCorrectDate(int day, int month, int year) {
@@ -26,10 +24,8 @@ public class MyClass {
         int dayInMonth = getDayInMonth(month, year);
         if (day >= 1 && day <= dayInMonth) {
             return true;
-
         }
         return false;
-
     }
 
     public static int getDayInMonth(int month,int year) {
@@ -57,7 +53,6 @@ public class MyClass {
             dayInMonth = 29;
         }
         return dayInMonth;
-
     }
 
     public static boolean isLeap(int year) {
