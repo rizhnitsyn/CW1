@@ -15,8 +15,7 @@ public class MyClass {
         System.out.println(isCorrectDate(day, month, year));
 //        System.out.println(i + " " + getPartOfString(i));
 //        System.out.println(isLeap(i) ? "Leap" : "NotLeap");
-        //test mrg
-        //rrt
+        //hm
     }
 
     public static boolean isCorrectDate(int day, int month, int year) {
@@ -58,7 +57,7 @@ public class MyClass {
     }
 
     public static boolean isLeap(int year) {
-        return ((year % 4 == 0  && year % 100 != 0) || year % 400 == 0);
+        return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
     }
 
     public static String getPartOfString(int i) {
