@@ -24,8 +24,10 @@ public class MyClass {
         int dayInMonth = getDayInMonth(month, year);
         if (day >= 1 && day <= dayInMonth) {
             return true;
+
         }
         return false;
+
     }
 
     public static int getDayInMonth(int month,int year) {
@@ -53,7 +55,6 @@ public class MyClass {
             dayInMonth = 29;
         }
         return dayInMonth;
-
 
     }
 
